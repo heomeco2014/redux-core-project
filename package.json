@@ -1,0 +1,39 @@
+{
+    "name": "redux-core-project",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@atlaskit/button": "^16.8.2",
+        "@atlaskit/checkbox": "^12.6.6",
+        "@atlaskit/form": "^8.11.8",
+        "@atlaskit/radio": "^5.6.7",
+        "@atlaskit/select": "^16.5.7",
+        "@atlaskit/tag": "^11.5.5",
+        "@atlaskit/textfield": "^5.6.3",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-redux": "^8.1.1",
+        "redux": "^4.2.1",
+        "redux-devtools-extension": "^2.13.9"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.15",
+        "@types/react-dom": "^18.2.7",
+        "@vitejs/plugin-react": "^4.0.3",
+        "autoprefixer": "^10.4.14",
+        "eslint": "^8.45.0",
+        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react-hooks": "^4.6.0",
+        "eslint-plugin-react-refresh": "^0.4.3",
+        "postcss": "^8.4.27",
+        "tailwindcss": "^3.3.3",
+        "vite": "^4.4.5"
+    }
+}
